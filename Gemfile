@@ -77,3 +77,5 @@ source 'https://rails-assets.org' do
 end
 
 gem 'font-awesome-rails'
+
+gem 'fullpagejs-rails', '~> 2.7', '>= 2.7.5.1'

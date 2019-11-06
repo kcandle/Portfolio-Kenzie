@@ -215,7 +215,9 @@
 </body>
 
 <script>
-@import 'fullpage.js/dist/fullpage.extensions.min';
+@import $ from 'jquery'
+@import 'fullpage.js/vendors/scrolloverflow'
+@import 'fullpage.js/dist/jquery.fullpage.extensions.min'
 
 $(document).ready(function() {
 
@@ -277,7 +279,6 @@ $(document).ready(function() {
   $(document).ready(main);
   
   // initiate full page scroll
-  new fullpage().init();
 
   $('#fullpage').fullpage({
     scrollBar: true,
